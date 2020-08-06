@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LTI - Larsen & Toubro Infotech</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+      body {
+          font-family: 'Mulish', sans-serif;
+          padding: 10px;
+          background: #f1f1f1;
+      }
+      .header {
+          text-align: center;
+          padding: 25px;
+          background-color: white;
+      
+      }
+      .topnav {
+          overflow: hidden;
+          background-color: #1414bd;
+          padding: 10px 10px 0 30px;
+      
+      }
+      .topnav a {
+         
+          float: left;
+          display: block;
+          padding: 15px 15px;
+          text-align: center;
+          color: #f2f2f2;
+          text-decoration: none;
+      }
+      .topnav a:hover {
+          background-color: white;
+          color: black;
+      }
+      .topnav img {
+          width: 70px;
+          height: 50px;
+      }
+
+      .row{
+            background-color: #f1f1f1;
+
+            height: auto;
+        }
+       .main {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;   
+        }
+        .card {
+            width: 600px;
+            margin: auto;
+            padding: 10px;
+        }
+        .container {
+            width: 500px;
+            padding-left: 50px;
+        }
+
+        .container div {
+            padding: 5px;
+            
+        }
+        .container div input {
+            padding: 10px;
+            width: 92%;
+            height: 20PX;
+        }
+       
+        .container div label input {
+            margin-left: -100px;
+            margin-right: -100px;
+            padding: 10px;
+            width: 92%;
+            height: 20PX;
+        }
+
+        input:focus {
+          outline: none !important;
+            border-color: #a1a1db;
+            box-shadow: 0 0 10px #a1a1db;
+        }
+
+        .container button {
+            background-color: #1414bd;
+            padding: 5px;
+            outline: none !important;
+            color: white;
+            width: 100%;
+            height: 40px;
+            border-color: #1414bd;
+        }
+        
+        button:focus {
+            outline: none !important;
+            border-color: #1414bd;
+            box-shadow: 0 0 10px #5e5ee4; 
+
+        }
+
+      .footer {
+          margin-top: -20px;       
+          height: 50px;
+          text-align: center;
+          padding-top: 25px;
+          background-color: #a5a1a1;
+        }
+      </style>
+</head>
+<body>
+    <div class="header">
+      <h1>Welcome to LTI</h1>    
+    </div>
+      
+    <div class="topnav">
+       <a href="index.html">Home</a>
+       <a href="register.html">Register</a>
+       <a href="login.html">Login</a>
+       <img src="images/lti.jpg" style="float: right; padding-right: 20px; height:50px; margin-bottom: 10px;">
+       
+      </div>
+      
+      <div class="row">
+        <div class="main">
+          <div class="card">
+            <h2 style="text-align: center;">Register to explore amazing career opportunities</h2>
+            <form>
+                <div class="container">
+					<!-- Remove Bold tag and use CSS instead -->
+                  <div>
+                    <label for="uname" style="font-weight: bold;">Username</label>
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Enter Username" name="uname">
+                  </div>
+              
+                  <div>
+                    <label for="psw" style="font-weight: bold;">Password</label>
+                  </div>
+                  <div>
+                    <input type="password" placeholder="Enter Password" name="psw">
+                  </div>
+              
+                  <div>
+                    <label for="email" style="font-weight: bold;">Email Address</label>
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Enter Email Address" name="email">
+                  </div>
+              
+                  <div>
+                    <label for="city" style="font-weight: bold;">City</label>
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Enter City" name="city">
+                  </div>
+
+              
+                  <div>
+                    <label for="mobile" style="font-weight: bold;">Mobile No.</label>
+                  </div>
+                  <div>
+                    <input type="tel" placeholder="Enter Mobile Number" name="mobile">
+                  </div>
+
+
+                  <div>
+                    <button type="submit">Register</button>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="footer">
+        <p>© 2020 Larsen & Toubro Infotech Limited</p>
+      </div>          
+</body>
+</html>

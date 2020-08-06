@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(function(){
+           //$("li").text("jQuery");
+           //$("#products > li").css("color", "red");
+           //$("#products > li, #services >li").css("color", "red");
+           //$("#products > li:first").css("color", "red");
+           //$("#products  li:odd").css("color", "blue");
+           //=======  using jQuery's DOM traversal API =========
+            
+           $("#products ").children().children("li").css("color", "red");
+           //$("#products").children("li").css("color", "red");
+           //$("#products").find("li").first().css("color", "red");
+           //$("li").last().prev().prev().css("color", "blue");
+           //$("li").first().parent().hide();
+
+
+        })
+    </script>
+    <script src='main.js'></script>
+</head>
+<body>
+    <ul id="products">
+        <li>Laptop</li>
+        <li>Mobile</li>
+        <ul>
+            <li>Sony</li>
+            <li>Apple</li>
+            <li>Samsung</li>
+        </ul>
+        <ul>
+            <li>Sony</li>
+            <li>Apple</li>
+            <li>Samsung</li>
+        </ul>
+    </ul>
+    <ul id="services">
+        <li>Email</li>
+        <li>SMS</li>
+        <li>Chat</li>
+    </ul>
+</body>
+</html>
